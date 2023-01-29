@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply tablet:text-xl phone:text-xs
+}
+.navbar {
+    @apply flex items-center justify-between mt-8 desktop:gap-12 laptop:px-28 phone:px-5 tablet:gap-6 phone:gap-3
+}
+.content {
+    @apply flex ml-1 desktop:gap-9 tablet:gap-6 phone:gap-3
+}
+.navbar a:hover {
+    @apply text-slate-300
+}
+.witcherlogo {
+    @apply desktop:w-24 tablet:w-16 phone:w-12
+}
+.loginbutton {
+    @apply border border-red-500 text-white laptop:px-4 laptop:py-2 phone:px-2 phone:py-1 rounded-lg
+}   
+.loginbutton:hover {
+    @apply bg-red-500
+}
+.discordname {
+    @apply border border-green-500 text-white laptop:px-4 laptop:py-2 phone:px-2 phone:py-1 rounded-lg
+}
+.discordname:hover {
+    @apply bg-green-200
+}
+.dropdownmenu {
+    @apply fixed flex flex-row
+}
+.logoutbutton {
+    @apply mt-2 border border-red-400 text-white laptop:px-5 laptop:py-2 phone:px-2.5 phone:py-1 rounded-lg
+}
+.logoutbutton:hover {
+    @apply bg-red-200
+}

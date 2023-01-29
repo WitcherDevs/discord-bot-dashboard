@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.songimg {
+    @apply border rounded-sm tablet:w-48 phone:w-32
+}
+
+.artistname {
+    @apply flex
+}
+
+.musicbar {
+    @apply flex flex-row gap-12 mt-6
+}
+
+.status {
+    @apply flex flex-col gap-6 tablet:w-48 phone:w-32
+}
+
+.loadbackground {
+    @apply w-full rounded-full h-2.5 bg-gray-500
+}
+
+.loadbar {
+    @apply bg-gray-200 h-2.5 rounded-full
+}
